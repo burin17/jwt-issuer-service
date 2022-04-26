@@ -1,0 +1,13 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:18761/eureka/
+    fetch-registry: true
+    registerWithEureka: true
+  instance:
+    preferIpAddress: true
+spring:
+  application:
+    name: jwt-issuer-service
+server:
+  port: 20080
